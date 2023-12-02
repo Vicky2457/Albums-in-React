@@ -1,0 +1,29 @@
+/* Notification.css */
+.notification {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color:rgb(167, 250, 180); /* Green background color */
+    color:rgb(3, 1, 14);
+    padding: 1px 15px 1px 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    animation: fadeOut 3s forwards; /* Apply a fade-out animation */
+  }
+  
+  /* Animation to fade out notifications */
+  @keyframes fadeOut {
+    0%, 100% {
+      opacity: 1; /* Start and end with full visibility */
+    }
+    90% {
+      opacity: 1; /* Stay mostly visible until near the end */
+    }
+    100% {
+      opacity: 0; /* Completely disappear */
+      transform: translateX(-50%) translateY(-20px); /* Move slightly up */
+    }
+  }
+  

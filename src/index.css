@@ -1,0 +1,33 @@
+/* Reset default margin and padding for body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f3f3; /* Light gray background */
+  color: #333; /* Dark text color */
+}
+
+/* Optional: Apply a subtle box-shadow to the body for a lifted effect */
+body {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Optional: Style code elements for better readability */
+code {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #f8f8f8; /* Light gray background for code */
+  border: 1px solid #e0e0e0; /* Light border */
+  padding: 2px 5px; /* Padding around code */
+  border-radius: 3px; /* Rounded corners */
+}
+
+/* Optional: Style links with a subtle color and underline on hover */
+a {
+  color: #3498db; /* Blue link color */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+  color: #2980b9; /* Darker blue on hover */
+}

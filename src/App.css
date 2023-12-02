@@ -1,0 +1,44 @@
+/* App.css */
+
+/* Styling for the h1 element */
+h1 {
+  text-align: center;
+  color: #333; /* Dark gray color */
+}
+
+/* Styling for the add-album-container */
+.add-album-container {
+  margin: 20px;
+  text-align: center;
+}
+
+/* Styling for the input inside add-album-container */
+.add-album-container input {
+  padding: 8px;
+  margin-right: 10px;
+}
+
+/* Styling for the button inside add-album-container */
+.add-album-container button {
+  padding: 8px;
+  cursor: pointer;
+  background-color: #3498db; /* Blue color */
+  color: #fff; /* White text color */
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+/* Styling for the button inside add-album-container on hover */
+.add-album-container button:hover {
+  background-color: #2980b9; /* Darker blue color on hover */
+}
+
+/* Styling for the album-grid */
+.album-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+/* Add more styles as needed for your specific design */
